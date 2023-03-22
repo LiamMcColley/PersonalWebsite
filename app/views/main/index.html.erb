@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Resume</title>
+  <style>
+    .container {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .circle {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 50%;
+      height: 0;
+      padding-bottom: 50%;
+      border-radius: 50%;
+      background-image: url(headshot.jpg);
+      background-size: cover;
+      background-position: center;
+    }
+
+    .resume-info {
+      position: absolute;
+      top: 0;
+      left: 100%;
+      width: 100%;
+      height: 100%;
+      background-color: white;
+      transition: left 0.5s ease-in-out;
+    }
+
+    .container:hover .resume-info {
+      left: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="circle"></div>
+    <div class="resume-info">
+      <h2>Liam McColley</h2>
+      <ul>
+          <li>liammccolley@gmail.com</li>
+          <li>804-840-7922</li>
+      </ul>
+      <h2>Education</h2>
+      <ul>
+          <li>Bachelor of Arts in Computer Science, University of Virginia, 2019-2022</li>
+          <li>Bachelor of Arts in Physics, University of Virginia, 2019-2022</li>
+      </ul>
+      <h2>Skills</h2>
+      <ul>
+          <h3>Proficient in:</h3>
+            <li>Ruby on Rails, JavaScript, React, Python, Java, C++</li>
+          <h3>Experience with:</h3>
+            <li>Vue JS, Django, Heroku, Microsoft Office (Word, Excel, PowerPoint)</li>
+      </ul>
+      <h2>Work Experience</h2>
+      <ul>
+          <h3>Locus Health</h3>
+          <li>Junior Software Engineer (Ruby on Rails), June 2022 - Present</li>
+          <ul>
+            <li>Redesigned the client facing patient Reporting Dashboard to increase ease of use, modernize the user interface, and add data visualization.</li>
+            <li>Created a repository to handle and display upcoming visits for oncology patients using incoming data from hospitals</li>
+            <li>Performed maintenance and improvements on existing code to reduce technical debt</li>
+            <li>Implemented various frontend and backend features for the PWA (Vue JS) including views and API endpoints</li>
+          </ul>
+          <h3>Athena’s Bump</h3>
+          <li>Web Development Intern, Sep. 2021 – May 2022</li>
+          <ul>
+            <li>Redesigned Athena’s Bump’s recipe generator webpage using Django to improve user experience and retention.</li>
+            <li>Facilitated interdisciplinary projects between the tech team and the dietetics team or marketing team.</li>
+          </ul>
+          <h3>UVA Physics Department</h3>
+          <li>Physics TA, Sep. 2021 – May 2022</li>
+          <ul>
+            <li>Lead weekly homework and exam review/supplementary lessons for PHYS 2010/2020.</li>
+          </ul>
+      </ul>
+      <h2>Relevant Coursework and Training</h2>
+      <ul>
+          <li>Forge Launch Software Engineering Training</li>
+          <ul>
+            <li>Created various web applications including APIs using React, JS, Express, and Heroku for hosting</li>
+          </ul>
+          <li>Human-Computer Interaction in Software Development – CS 3205</li>
+          <ul>
+            <li>Designed and Implemented prototype systems in group-based projects focused on user feedback and evaluation.</li>
+            <li>Design included a focus on software engineering as well as the engineering and design of physical products for target demographics.</li>
+          </ul>
+          <li>Machine Learning – CS 4774</li>
+          <ul>
+            <li>Studied fundamentals of machine learning algorithms and methods</li>
+          </ul>
+
+          <li>Software Testing – CS 3250</li>
+          <ul>
+            <li>Studied various methods of software development and testing cycles</li>
+          </ul>
+      </ul>
+    </div>
+  </div>
+
+  <script>
+  </script>
+</body>
+</html>
