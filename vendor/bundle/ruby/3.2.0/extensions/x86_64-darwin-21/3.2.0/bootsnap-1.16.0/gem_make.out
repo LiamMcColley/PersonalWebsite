@@ -1,0 +1,19 @@
+current directory: /Users/liam.mccolley/Documents/Railsapps/PersonalWebsite/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+/Users/liam.mccolley/.rvm/rubies/ruby-3.2.0/bin/ruby -I /Users/liam.mccolley/.rvm/rubies/ruby-3.2.0/lib/ruby/3.2.0 extconf.rb
+creating Makefile
+
+current directory: /Users/liam.mccolley/Documents/Railsapps/PersonalWebsite/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230322-93172-97z83e sitelibdir\=./.gem.20230322-93172-97z83e clean
+
+current directory: /Users/liam.mccolley/Documents/Railsapps/PersonalWebsite/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230322-93172-97z83e sitelibdir\=./.gem.20230322-93172-97z83e
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+ld: warning: -undefined dynamic_lookup may not work with chained fixups
+
+current directory: /Users/liam.mccolley/Documents/Railsapps/PersonalWebsite/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230322-93172-97z83e sitelibdir\=./.gem.20230322-93172-97z83e install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20230322-93172-97z83e/bootsnap
+
+current directory: /Users/liam.mccolley/Documents/Railsapps/PersonalWebsite/vendor/bundle/ruby/3.2.0/gems/bootsnap-1.16.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20230322-93172-97z83e sitelibdir\=./.gem.20230322-93172-97z83e clean

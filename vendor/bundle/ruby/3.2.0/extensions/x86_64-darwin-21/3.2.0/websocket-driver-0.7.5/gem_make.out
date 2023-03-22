@@ -1,0 +1,19 @@
+current directory: /Users/liam.mccolley/Documents/Railsapps/PersonalWebsite/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+/Users/liam.mccolley/.rvm/rubies/ruby-3.2.0/bin/ruby -I /Users/liam.mccolley/.rvm/rubies/ruby-3.2.0/lib/ruby/3.2.0 extconf.rb
+creating Makefile
+
+current directory: /Users/liam.mccolley/Documents/Railsapps/PersonalWebsite/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230322-93172-ojc3r8 sitelibdir\=./.gem.20230322-93172-ojc3r8 clean
+
+current directory: /Users/liam.mccolley/Documents/Railsapps/PersonalWebsite/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230322-93172-ojc3r8 sitelibdir\=./.gem.20230322-93172-ojc3r8
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+ld: warning: -undefined dynamic_lookup may not work with chained fixups
+
+current directory: /Users/liam.mccolley/Documents/Railsapps/PersonalWebsite/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230322-93172-ojc3r8 sitelibdir\=./.gem.20230322-93172-ojc3r8 install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 websocket_mask.bundle ./.gem.20230322-93172-ojc3r8
+
+current directory: /Users/liam.mccolley/Documents/Railsapps/PersonalWebsite/vendor/bundle/ruby/3.2.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= sitearchdir\=./.gem.20230322-93172-ojc3r8 sitelibdir\=./.gem.20230322-93172-ojc3r8 clean

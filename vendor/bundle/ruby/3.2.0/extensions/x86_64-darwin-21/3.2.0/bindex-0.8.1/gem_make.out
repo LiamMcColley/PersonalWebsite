@@ -1,0 +1,19 @@
+current directory: /Users/liam.mccolley/Documents/Railsapps/PersonalWebsite/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/liam.mccolley/.rvm/rubies/ruby-3.2.0/bin/ruby -I /Users/liam.mccolley/.rvm/rubies/ruby-3.2.0/lib/ruby/3.2.0 extconf.rb
+creating Makefile
+
+current directory: /Users/liam.mccolley/Documents/Railsapps/PersonalWebsite/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20230322-93172-nm11i sitelibdir\=./.gem.20230322-93172-nm11i clean
+
+current directory: /Users/liam.mccolley/Documents/Railsapps/PersonalWebsite/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20230322-93172-nm11i sitelibdir\=./.gem.20230322-93172-nm11i
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+ld: warning: -undefined dynamic_lookup may not work with chained fixups
+
+current directory: /Users/liam.mccolley/Documents/Railsapps/PersonalWebsite/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20230322-93172-nm11i sitelibdir\=./.gem.20230322-93172-nm11i install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 cruby.bundle ./.gem.20230322-93172-nm11i/skiptrace/internal
+
+current directory: /Users/liam.mccolley/Documents/Railsapps/PersonalWebsite/vendor/bundle/ruby/3.2.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= sitearchdir\=./.gem.20230322-93172-nm11i sitelibdir\=./.gem.20230322-93172-nm11i clean

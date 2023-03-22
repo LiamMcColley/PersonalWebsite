@@ -1,0 +1,16 @@
+current directory: /Users/liam.mccolley/Documents/Railsapps/PersonalWebsite/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+/Users/liam.mccolley/.rvm/rubies/ruby-2.7.7/bin/ruby -I /Users/liam.mccolley/.rvm/rubies/ruby-2.7.7/lib/ruby/2.7.0 -r ./siteconf20230322-43458-1n89pmh.rb extconf.rb
+creating Makefile
+
+current directory: /Users/liam.mccolley/Documents/Railsapps/PersonalWebsite/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /Users/liam.mccolley/Documents/Railsapps/PersonalWebsite/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+ld: warning: -undefined dynamic_lookup may not work with chained fixups
+
+current directory: /Users/liam.mccolley/Documents/Railsapps/PersonalWebsite/vendor/bundle/ruby/2.7.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 websocket_mask.bundle ./.gem.20230322-43458-hxbcox
